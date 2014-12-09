@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax Binding Navigation background Viewport Sizing</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale = 1.0, user-scalable = no, maximum-scale=1">
+		<link href="css/bootstrap-social.css" rel="stylesheet" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="css/font-awesome.css" media="screen">
+		<link rel="stylesheet" href="css/demo.css" type="text/css" media="screen">
+		
+		<!-- favicon and touch icons -->		
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/suds-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/suds-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/suds-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/suds-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		
+		<!-- IE6 EXPANDING BOX FIX -->
+		<!--[if IE 6]>
+			<link href="css/ie6.css" rel="stylesheet" type="text/css">
+		<![endif]-->
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if IE]>
+			<link href="css/iefixes.css"  media="screen, projection" rel="stylesheet">
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+	</head>
+	<body id="page-top" name="page-top" class="active" data-spy="scroll" data-target=".navbar-static-top">
+		<div class="hidden" id="page-top" name="page-top"></div>
+		<div class="slideout-menu">
+			<h3 class="slideout-menu">Menu <a href="#" class="slideout-menu-toggle">&times;</a></h3>
+			<ul class="slideout-menu-list">
+				<li class="active"><a href="#page-top"><strong>Page Top </strong></a></li>
+				<li><a href="#posts">Posts</a></li>
+				<li><a href="#section3">About</a></li>
+				<li><a href="#section4">News</a></li>							
+				<li><a href="#section5">Contact</a></li>
+				<li><a href="#footer">Page Bottom</a></li>
+			</ul>
+		</div><!--/.slideout-menu-->
+		<div class="main">
+			<header class="masthead">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12 title-block">
+							<h1 class="title"><a href="#" title="Bootstrap Binding Sticky Navigation and Viewport Sizes Images Template"><span class="text-danger"><b>&nbsp;Bootstrap </b></span>&nbsp;Binding&nbsp;<span class="text-danger"><b>Sticky&nbsp;</b></span>Navigation&nbsp;&nbsp;&nbsp;&amp;&nbsp;<span class="text-danger">Viewport&nbsp;</b></span>Sizing</a><br>
+							<small>An image &nbsp;<span class="text-danger"><b>That</b></span>&nbsp;Covers the <span class="text-danger"><b>Viewport</b></small></h1>
+						</div>
+						<div class="col-sm-6">
+							<div class="pull-right hidden-xs"> 
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="text-center col-xs-12 middle-text-block">
+							<h2 style="color:#fff;">Some <span class="text-danger"><b>More</b></span> Text<span class="text-danger"><b>Here!!</b></span></h2>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Fixed navbar -->
+			<div class="navbar navbar-custom navbar-inverse navbar-static-top" id="nav" name="nav">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav nav-justified">
+							<li class="active"><a href="#page-top"><strong>Page Top </strong></a></li>
+							<li><a href="#posts">Posts</a></li>
+							<li><a href="#section3">About</a></li>
+							<li><a href="#section4">News</a></li>							
+							<li><a href="#section5">Contact</a></li>
+							<li class="dropdown menu-large">
+								<a data-href="#" class="dropdown-toggle" data-toggle="dropdown" style="cursor:pointer;">Categories <b class="caret"></b></a>				
+								<ul class="dropdown-menu megamenu row">
+									<li class="col-sm-3">
+										<ul>
+											<li class="dropdown-header megaheader">Glyphicons</li>
+											<li><a href="#">Available glyphs</a></li>
+											<li class="disabled"><a href="#">How to use</a></li>
+											<li><a href="#">Examples</a></li>
+											<li class="divider"></li>
+											<li class="dropdown-header megaheader">Dropdowns</li>
+											<li><a href="#">Example</a></li>
+											<li><a href="#">Aligninment options</a></li>
+											<li><a href="#">Headers</a></li>
+											<li><a href="#">Disabled menu items</a></li>
+										</ul>
+									</li>
+									<li class="col-sm-3">
+										<ul>
+											<li class="dropdown-header megaheader">Button groups</li>
+											<li><a href="#">Basic example</a></li>
+											<li><a href="#">Button toolbar</a></li>
+											<li><a href="#">Sizing</a></li>
+											<li><a href="#">Nesting</a></li>
+											<li><a href="#">Vertical variation</a></li>
+											<li class="divider"></li>
+											<li class="dropdown-header megaheader">Button dropdowns</li>
+											<li><a href="#">Single button dropdowns</a></li>
+										</ul>
+									</li>
+									<li class="col-sm-3">
+										<ul>
+											<li class="dropdown-header megaheader">Input groups</li>
+											<li><a href="#">Basic example</a></li>
+											<li><a href="#">Sizing</a></li>
+											<li><a href="#">Checkboxes and radio addons</a></li>
+											<li class="divider"></li>
+											<li class="dropdown-header megaheader">Navs</li>
+											<li><a href="#">Tabs</a></li>
+											<li><a href="#">Pills</a></li>
+											<li><a href="#">Justified</a></li>
+										</ul>
+									</li>
+									<li class="col-sm-3">
+										<ul>
+											<li class="dropdown-header megaheader">Navbar</li>
+											<li><a href="#">Default navbar</a></li>
+											<li><a href="#">Buttons</a></li>
+											<li><a href="#">Text</a></li>
+											<li><a href="#">Non-nav links</a></li>
+											<li><a href="#">Component alignment</a></li>
+											<li><a href="#">Fixed to top</a></li>
+											<li><a href="#">Fixed to bottom</a></li>
+											<li><a href="#">Static top</a></li>
+											<li><a href="#">Inverted navbar</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#footer">Page Bottom</a></li>
+							<li><a data-target="#" href="#" class="slideout-menu-toggle" data-toggle="slideout-menu"><i class="fa fa-bars"></i> More</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div><!--/.container -->
+			</div><!--/.navbar -->
+		</div>
+		<div class="container">
+			<div class="row">
+				<h2>Some Text Here to display that image<br>is fixed to viewport</h2>
+			</div>
+		</div>
+		<!-- Begin page content -->
+		<div class="container fluid">
+			<div class="divider" id="posts"></div>
+			<div class="row">
+				<div class="col-lg-8 col-sm-12">
+					<div class="panel panel-lg panel-custom">
+						<div class="panel-heading post-heading1">
+						</div>
+						<div class="panel-body">
+							<h3>My First Post about nothing - Totally Nothing</h3>
+							<p><i class="fa fa-user">&nbsp;</i><a data-href="#user1" style="color:#0099FF; font-weight:700;">John Doe</a>&nbsp; &nbsp;<i class="fa fa-clock-o">&nbsp;</i> 10/17/2014 10:59 AM</p>
+							<p class="post-content">Bootstrap is front end frameworkto build custom web applications that are fast, responsive &amp; intuitive. It consist of CSS and HTML for typography, forms, buttons, tables, grids, and navigation along with custom-built jQuery plug-ins and support for responsive layouts. With dozens of reusable components for navigation, pagination, labels, alerts etc...</p>
+						</div>
+						<div class="panel-footer"><a type="button" class="btn btn-primary pull-right" data-href="button-link" style="color:#ffffff; font-weight:700; text-transform:uppercase;">Read More</a></div>
+					</div>
+					<div class="panel panel-lg panel-custom">
+						<div class="panel-heading post-heading1">
+						</div>
+						<div class="panel-body">
+							<h3>My First Post about nothing - Totally Nothing</h3>
+							<p><i class="fa fa-user">&nbsp;</i><a data-href="#user1" style="color:#0099FF; font-weight:700;">John Doe</a>&nbsp; &nbsp;<i class="fa fa-clock-o">&nbsp;</i> 10/17/2014 10:59 AM</p>
+							<p class="post-content">Bootstrap is front end frameworkto build custom web applications that are fast, responsive &amp; intuitive. It consist of CSS and HTML for typography, forms, buttons, tables, grids, and navigation along with custom-built jQuery plug-ins and support for responsive layouts. With dozens of reusable components for navigation, pagination, labels, alerts etc...</p>
+						</div>
+						<div class="panel-footer"><a type="button" class="btn btn-primary pull-right" data-href="button-link" style="color:#ffffff; font-weight:700; text-transform:uppercase;">Read More</a></div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-12">
+					<div class="panel panel-lg panel-custom">
+						<div class="panel-heading">
+							<h4 class="post-heading1">Login</h4>
+						</div>
+						<div class="panel-body">
+							<p class="post-content">
+								<form role="form">
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+											<input type="text" class="form-control" id="focusedInput" placeholder="Username">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon">#</span>
+											<input type="text" class="form-control" id="focusedInput" placeholder="Password">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-6 pull-left">
+											<div class="checkbox pull-left">
+												<label>
+													<input type="checkbox"> Remember Me
+												</label>
+											</div>
+										</div>
+										<div class="col-sm-6 pull-right">
+											<button type="submit" class="btn btn-primary pull-right">SIGN IN</button>
+										</div>
+									</div>
+									<hr>
+									<br>
+									<div class="col-lg-6 col-sm-12">
+										<a class="btn btn-block btn-social btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-twitter']);">
+										<i class="fa fa-twitter"></i> Twitter
+										</a>
+									</div>
+									<div class="col-lg-6 col-sm-12">
+										<a class="btn btn-block btn-social btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social', 'click', 'btn-facebook']);">
+											<i class="fa fa-facebook"></i> Facebook
+										</a>
+									</div>
+								</form>
+							</p>
+						</div>
+						<div class="panel-footer">
+							<br>
+							<p class="text-center" style="font-size:90%;">
+								<span class="col-sm-6"><a data-href="#fpassword" style="color:white;  text-decoration:none; cursor:pointer">Forgot Password?</a></span>
+								<span class="col-sm-6"><a data-href="#naccount" style="color:white; text-decoration:none;">No account?<span style="color:red; cursor:pointer"> Sign Up!</span></a></span>
+							</p>
+						</div>
+					</div>
+					<div class="panel panel-lg panel-custom">
+						<div class="panel-heading">
+							<h4 class="post-heading1">Newsletter</h4>
+						</div>
+						<div class="panel-body">
+							<p class="post-content">
+								<form role="form">
+									<div class="form-group">
+										<div class="input-group">
+											<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+											<input type="text" class="form-control input-lg" id="focusedInput" placeholder="Your Email">
+										</div>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-block btn-primary pull-right">SIGN UP</button>
+									</div>
+								</form>
+							</p>
+						</div>
+						<div class="panel-footer">
+							<p class="text-center" style="font-size:90%; margin-top:2%;">
+								Design, build, test, and prototype using Bootstrap in real-time from your Web browser
+							</p>
+						</div>
+					</div>
+					<div class="panel panel-lg panel-custom">
+						<div class="panel-heading">
+							<h4 class="post-heading1">Recent Articles</h4>
+						</div>
+						<div class="panel-body">
+							<p class="post-content">
+								<div class="list-group" style="z-index:1;">
+									<a href="#" class="list-group-item active">
+										<h4 class="list-group-item-heading">Article Title 1</h4>
+										<p class="list-group-item-text">Fusce nisl arcu, mattis non consequat et, vestibulum at dolor. Pellentesque in orci nisi. Pellentesque.</p>
+									</a>
+									<a href="#" class="list-group-item">
+										<h4 class="list-group-item-heading">Article Title 2</h4>
+										<p class="list-group-item-text">Fusce nisl arcu, mattis non consequat et, vestibulum at dolor. Pellentesque in orci nisi. Pellentesque.</p>
+									</a>
+									<a href="#" class="list-group-item">
+										<h4 class="list-group-item-heading">Article Title 3</h4>
+										<p class="list-group-item-text">Fusce nisl arcu, mattis non consequat et, vestibulum at dolor. Pellentesque in orci nisi. Pellentesque.</p>
+									</a>
+									<a href="#" class="list-group-item">
+										<h4 class="list-group-item-heading">Article Title 4</h4>
+										<p class="list-group-item-text">Fusce nisl arcu, mattis non consequat et, vestibulum at dolor. Pellentesque in orci nisi. Pellentesque.</p>
+									</a>
+								</div>
+							</p>
+						</div>
+						<div class="panel-footer">
+							<p class="text-center" style="font-size:90%; margin-top:2%;">
+								<a data-href="#archive" style="color:red; cursor:pointer;">View Archive</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--End Posts Section-->
+		<div class="divider" id="section3"></div>
+		<div class="container">
+			<div class="col-sm-10 col-sm-offset-1 text-center">
+				<h1>About "<span class="text-danger">This</span> Business"</h1>
+				<p class="lead">Suspendisse potenti. Aliquam erat volutpat. Fusce in venenatis ligula. Integer et sapien sit amet erat vulputate vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris facilisis, justo vitae gravida lacinia, erat dui congue neque, ut sodales lectus lorem in nulla. Phasellus finibus nunc eget magna auctor congue. Duis auctor turpis in sapien luctus, vestibulum interdum nibh posuere.<br>
+				In iaculis nunc mauris, gravida blandit mauris semper a. Morbi scelerisque urna vitae sapien condimentum, eu hendrerit nunc commodo. Etiam massa ex, bibendum a arcu scelerisque, posuere placerat ligula. Maecenas eu posuere justo. Proin leo leo, ornare nec dolor quis, viverra dictum odio. Vivamus tempus a elit sit amet tempus. Phasellus porttitor quam nec tellus fringilla ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis mollis sapien, et efficitur ex mattis et. In tincidunt libero at mi molestie, id tempor orci interdum. Nam eu eros quis sem luctus suscipit. Mauris egestas suscipit faucibus. Aliquam placerat nunc nibh, a aliquet est dictum non. Etiam nisl tortor, ornare ac orci at, blandit varius diam.</p>
+				<hr>
+				<img src="images/beach.jpg" class="img-responsive" style="width:100%">
+				<hr>
+			</div><!--/col-->
+		</div><!--/container-->
+		<div class="divider" id="section4"></div>
+		<div class="container">
+			<div class="row" style="color:#101010; background:#ededed; padding-top:2%;">
+				<div class="col-sm-4 col-xs-6">
+					<div class="panel panel-default">
+						<div>
+							<img src="images/eee.gif" class="img-responsive lazyOwl">
+						</div>
+						<div class="panel-body">
+							<p class="lead">Care for Your Tats!</p>
+							<p>Tattoos are important because they are tattoos...</p>
+							<p>
+								<img class="img-responsive img-circle" src="images/fff.gif" width="40" height="40">
+							</p>
+						</div>
+					</div><!--/panel-->
+				</div><!--/col-->
+				<div class="col-sm-4 col-xs-6">
+					<div class="panel panel-default">
+						<div class="panel-thumbnail">
+							<img src="images/444.gif" class="img-responsive lazyOwl">
+						</div>
+						<div class="panel-body">
+							<p class="lead">Some Really Important Stuff!!</p>
+							<p>This is a post about some really important stuff...</p>
+							<p>
+								<img class="img-responsive img-circle" src="images/ff6600.gif" width="40" height="40">
+							</p>
+						</div>
+					</div><!--/panel-->
+				</div><!--/col-->
+				<div class="col-sm-4 col-xs-6">
+					<div class="panel panel-default">
+					<div class="panel-thumbnail"><img src="images/990000.gif" class="img-responsive lazyOwl"></div>
+						<div class="panel-body">
+							<p class="lead">Hey Look another Post</p>
+							<p>Do these posts seem like they are going on forever? well...</p>
+							<p>
+								<img class="img-responsive img-circle" src="images/ff6600.gif" width="40" height="40">
+							</p>
+						</div>
+					</div><!--/panel-->
+				</div><!--/col-->
+			</div><!--/row-->
+		</div><!--/container-->
+		<div class="divider" id="section5" name="section5"></div>
+		<div class="container">
+			<h3 class="text-center">Contact <span class="text-danger">Us</span></h3>
+			<hr>
+			<div class="col-md-5 col-xs-12">
+				<div class="row">
+					<!-- Map -->
+					<iframe width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" seamless src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.778125113836!2d-104.70084685000003!3d38.79848080000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x871340d4945a460f%3A0xf58d9316b01a6f4b!2sColorado+Springs+Airport%2C+Colorado+Springs+Airport+(COS)%2C+Colorado+Springs%2C+CO+80916!5e1!3m2!1sen!2sus!4v1418119859361" style="height:500px; min-height:100%;"></iframe>
+					<a href="https://www.google.com/maps/place/Colorado+Springs+Airport,+Colorado+Springs+Airport+(COS),+Colorado+Springs,+CO+80916/@38.7984808,-104.7008469,796m/data=!3m3!1e3!4b1!5s0x871340d4938d4dd1:0xaad06d1e8d691575!4m2!3m1!1s0x871340d4945a460f:0xf58d9316b01a6f4b"></a>
+				</div>
+			</div>
+			<div class="col-md-7 col-xs-12">
+				<div class="row form-group">
+					<div class="col-xs-3">
+						<input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required="">
+					</div>
+					<div class="col-xs-3">
+						<input type="text" class="form-control" id="middleName" name="firstName" placeholder="Middle Name" required="">
+					</div>
+					<div class="col-xs-4">
+						<input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required="">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-xs-5">
+						<input type="email" class="form-control" name="email" placeholder="Email" required="">
+					</div>
+					<div class="col-xs-5">
+						<input type="email" class="form-control" name="phone" placeholder="Phone" required="">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-xs-10">
+						<input type="homepage" class="form-control" placeholder="Website URL" required="">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-xs-10">
+						<button class="btn btn-danger pull-right">Contact Us</button>
+					</div>
+				</div>
+				<div class="col-xs-12 pull-right">
+					<address>
+					<strong>"<span class="text-danger">This</span> Business"</strong><br>
+					123 Some Ave, Suite 555<br>
+					Colorado Springs, CO 80914<br>
+					P: (123) 456-7890
+					</address>
+					<address>
+						<strong>Email Us</strong><br>
+						<a href="mailto:#">first.last@domain.com</a>
+					</address>
+				</div>
+			</div>
+		</div><!--/End Contact Section-->
+		<div class="container">
+			<div class="col-sm-8 col-sm-offset-2 text-center">
+				<hr>
+				<ul class="social list-inline center-block">
+					<li><a href="http://facebook.com/soldierupdesigns"><img src="images/facebook_icon.png"></a></li>
+					<li><a href="http://twitter.com/soldierupdesign"><img src="images/twitter_icon.png"></a></li>
+					<li><a href="http://plus.google.com/+soldierupdesigns"><img src="images/googleplus_icon.png"></a></li>
+					<li><a href="http://linkedin.com"><img src="images/linkedin_icon.png"></a></li>
+				</ul>
+				<hr>
+				<h4>Hey! You Really Should <span class="text-danger">Follow</span> US!!!</h4>
+			</div><!--/col-->
+			<hr>
+		</div><!--/container-->
+		<hr>
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				<div class="container">
+						<p style="font-weight: 700; letter-spacing: 1px; text-transform: uppercase;">Copyright &copy; "<span class="text-danger">This</span> Business" 2014</p>
+					<ul class="nav pull-right scroll-top" style="cursor:pointer;">
+						<li><a data-href="#" title="Scroll to top" style="color:#000000;"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				
+				$('.slideout-menu-toggle').on('click', function(event){
+					event.preventDefault();
+					// create menu variables
+					var slideoutMenu = $('.slideout-menu');
+					var slideoutMenuWidth = $('.slideout-menu').width();
+					
+					// toggle open class
+					slideoutMenu.toggleClass("open");
+					
+					// slide menu
+					if (slideoutMenu.hasClass("open")) {
+						slideoutMenu.animate({
+							left: "0px"
+						});	
+					} else {
+						slideoutMenu.animate({
+							left: -slideoutMenuWidth
+						}, 250);
+					}
+				});
+			});
+		</script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/jquery.easing.min.js"></script>
+		<script>
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+			});
+		</script>
+		<!-- JavaScripts -->
+		<script src="js/respond.min.js"></script>
+		<script src="js/modernizr.min.js"></script>
+	</body>
+</html>
