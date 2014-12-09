@@ -1,7 +1,7 @@
-<h2><strong>parallax-viewport-bootstrap-navbar</strong></h2>
+<h2><b>parallax-viewport-bootstrap-navbar</b></h2>
 ==================================
 
-<h3><strong style="color:#990000;">BOOTSTRAP BINDING STICKY NAVIGATION &amp; VIEWPORT SIZING</strong></h3>
+<h3><b style="color:red;">BOOTSTRAP BINDING STICKY NAVIGATION &amp; VIEWPORT SIZING</b></h3>
 <img src="http://soldierupdesigns.com/images/bootstrap_soldierupdesigns_banner.png" title="Soldier-up Designs &dash; Custom Web Design" alt="Soldier-up Designs Bootstrap Banner" style="background-size:contain; width:100%; margin:0 auto;">
 <p>Simply clone repo and run index.html in browser.  I "canned" the code to make it simple and easy to follow. 
 
