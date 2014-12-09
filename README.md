@@ -2,7 +2,7 @@ parallax-viewport-bootstrap-navbar
 ==================================
 
  BOOTSTRAP BINDING STICKY NAVIGATION &amp; VIEWPORT SIZING
-<img src="//soldierupdesigns.com/images/bootstrap_soldierupdesigns_banner.png" title="Soldier-up Designs &dash; Custom Web Design" alt="Soldier-up Designs Bootstrap Banner" style="background-size:contain; width:100%; margin:0 auto;">
+<img src="http://soldierupdesigns.com/images/bootstrap_soldierupdesigns_banner.png" title="Soldier-up Designs &dash; Custom Web Design" alt="Soldier-up Designs Bootstrap Banner" style="background-size:contain; width:100%; margin:0 auto;">
 <p>Simply clone repo and run index.html in browser.  I "canned" the code to make it simple and easy to follow. 
 
 <p>If you would like to make improvements that would be great and welcomed. Thank you and:</p>
