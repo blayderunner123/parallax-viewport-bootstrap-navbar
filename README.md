@@ -17,3 +17,5 @@ parallax-viewport-bootstrap-navbar
  <h4>Click <a href="http://soldierupdesigns.com/parallax" title="BOOTSTRAP BINDING STICKY NAVIGATION &amp; VIEWPORT SIZING" target="_blank">Here</a> to view demo. Or simply click on screenshot to take you there.<h4>
  
  <a href="http://soldierupdesigns.com/parallax" title="BOOTSTRAP BINDING STICKY NAVIGATION &amp; VIEWPORT SIZING" target="_blank"><img src="http://soldierupdesigns.com/images/screenshot.png" style="background-size:contain; width:100%; margin:0 auto;" alt="BOOTSTRAP BINDING STICKY NAVIGATION &amp; VIEWPORT SIZING" title="BOOTSTRAP BINDING STICKY NAVIGATION &amp; VIEWPORT SIZING"></a>
+
+<a href="http://soldierupdesigns.com/" title="Soldier-up Designs &dash; Custom Web Design" target="_blank"><img src="http://soldierupdesigns.com/images/logo_main.png" style="background-size:contain; width:50%; margin:0 auto;" alt="Soldier-up Designs &dash; Custom Web Design" title="Soldier-up Designs &dash; Custom Web Design"></a>
